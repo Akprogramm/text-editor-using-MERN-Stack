@@ -1,0 +1,196 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.box{
+    width: 60rem;
+    border: 1px dashed white;
+    min-height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: start;
+    margin-top: 5rem;
+}
+
+.form-control{
+    border: none;
+    width: 50rem;
+    /* font-size: 2rem; */
+}
+
+.iconarea{
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+    /* border: 1px solid black; */
+}
+
+.adrede{
+    font-size: 25px;
+}
+
+
+.area1{
+     width: 10rem;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.area2{
+    width: 7rem;
+    border-left: 2px dashed yellow;
+    border-right: 2px dashed yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.area3{
+    width: 5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.area4{
+    width: 7rem;
+    /* border: 1px solid red; */
+    border-left: 2px dashed yellow;
+    border-right: 2px dashed yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.area5{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+
+/* on-hover */
+
+.normal-text:hover{
+    background-color: rgb(184, 184, 184);
+}
+
+.boldicon:hover{
+    background-color: rgb(184, 184, 184);
+}
+
+.fa-italic:hover{
+    background-color: rgb(184, 184, 184);
+}
+
+.bor:hover{
+    background-color: rgb(184, 184, 184);
+}
+
+.convertbutton{
+    border-radius: 100%;
+    transform:  rotate(180deg);
+    position: relative;
+    left: 90%;
+    background-color: rgb(91, 232, 185);
+    color: white;
+    border: none;
+    height: 2.6rem;
+    width: 2.6rem;
+}
+
+.convertbutton:hover{
+    color:black;
+    border: 1px solid black;
+    transform: rotate(360deg);
+}
+
+.convertbutton:hover::after{
+    content: "ok";
+}
+
+i{
+    font-size: 20px;
+}
+
+.alltext{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 3rem;
+    width: 60rem;
+    text-align: center;
+}
+
+.alltext > h1{
+    padding: 20px;
+    text-decoration:underline;
+}
+
+@media screen and (max-width: 1000px) {
+  
+    .box{
+        width: 80vw;
+    }
+
+    .alltext{
+        width: 80vw;
+    }
+
+    .form-control{
+        width: 70vw;
+        border: 1px solid black;
+    }
+
+    .iconarea{
+        width: 70vw;
+        /* border: 1px solid black; */
+
+        
+    }
+
+    .area4{
+        display: none;
+        border: none;
+    }
+
+    .icon1{
+        display: none;
+    }
+
+  .icon2{
+        display: none;
+    }
+
+    .area5 {
+        display: none;
+    }
+
+}
+
+/* 
+@media screen and (max-width: 580px) {
+  
+    .box{
+        width: 80vw;
+    }
+
+
+} */
+
+
+
+
